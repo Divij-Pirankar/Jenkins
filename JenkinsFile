@@ -24,7 +24,7 @@ pipeline {
         stage('Hello World') {
             steps {
                 echo 'Running Hello World Python script... to showcase jenkinsfile'
-                bat 'python -c "print('Hello, World!')"'
+                bat 'python -c "print('Hello, World! ')"'
             }
         }
     }
